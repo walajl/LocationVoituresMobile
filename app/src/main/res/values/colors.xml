@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- couleurs principales -->
+    <color name="primary_color">#1976D2</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="accent_color">#FF6D00</color>
+    <color name="background_color">#F5F5F5</color>
+    
+    <!-- couleurs des cartes dashboard -->
+    <color name="card_voitures">#2196F3</color>
+    <color name="card_marques">#4CAF50</color>
+    <color name="card_modeles">#9C27B0</color>
+    <color name="card_reservations">#FF9800</color>
+    <color name="card_factures">#009688</color>
+    <color name="card_rapports">#F44336</color>
+    
+    <!-- couleurs de base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

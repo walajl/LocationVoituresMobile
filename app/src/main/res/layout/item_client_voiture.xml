@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item voiture pour client -->
+<androidx.cardview.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvMarqueModele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marque Modele"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_color" />
+
+        <TextView
+            android:id="@+id/tvAnnee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Annee: ---"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvPrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--- DT/jour"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/accent_color"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnReserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reserver"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/primary_color" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

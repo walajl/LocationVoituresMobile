@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestion Location Voitures</string>
+    
+    <!-- login -->
+    <string name="connexion_titre">Connectez-vous</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="pas_de_compte">Pas de compte? S\'inscrire</string>
+    
+    <!-- register -->
+    <string name="inscription_titre">Inscription</string>
+    <string name="inscription_sous_titre">Creer un nouveau compte</string>
+    <string name="nom_complet">Nom complet</string>
+    <string name="telephone">Telephone</string>
+    <string name="confirmer_mot_de_passe">Confirmer mot de passe</string>
+    <string name="sinscrire">S\'inscrire</string>
+    <string name="deja_un_compte">Deja un compte? Se connecter</string>
+    
+    <!-- dashboard -->
+    <string name="voitures">Voitures</string>
+    <string name="marques">Marques</string>
+    <string name="modeles">Modeles</string>
+    <string name="reservations">Reservations</string>
+    <string name="factures">Factures</string>
+    <string name="rapports">Rapports</string>
+    
+    <!-- menu -->
+    <string name="deconnexion">Deconnexion</string>
+</resources>

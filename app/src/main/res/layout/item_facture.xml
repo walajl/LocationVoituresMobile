@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item facture -->
+<androidx.cardview.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facture #"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_color" />
+
+        <TextView
+            android:id="@+id/tvClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Client: ---"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvVoiture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voiture: ---"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvDates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date debut - Date fin"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvMontant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Montant: --- DT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/accent_color"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
